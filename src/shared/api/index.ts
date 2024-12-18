@@ -1,0 +1,1 @@
+import { postCandidateForm, postClientForm } from "./request";
