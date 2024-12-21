@@ -86,7 +86,7 @@ export function ContactsPage() {
           <span className="inline-block text-sm font-semibold text-blue-500 mb-4 tracking-wider uppercase">
             Contact Us
           </span>
-          <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 via-purple-500 to-violet-600">
+          <h1 className="text-4xl md:text-6xl md:leading-normal font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 via-purple-500 to-violet-600">
             Let's Build Something Amazing
           </h1>
           <p className={cn(

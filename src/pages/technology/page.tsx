@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { useTheme } from '../../shared/lib/providers/theme-provider';
 import { cn } from '../../shared/lib/cn';
 import { FaReact, FaNodeJs, FaJava, FaSwift, FaAndroid, FaDocker, FaAws, FaVuejs, FaPhp, FaAngular } from 'react-icons/fa';
-import { SiTypescript, SiNextdotjs, SiTailwindcss, SiKubernetes, SiMongodb, SiPostgresql, SiElasticsearch, SiPython, SiGo, SiRuby, SiFlutter, SiMysql, SiRedis, SiGooglecloud, SiDocker, SiNestjs, SiSpringboot, SiSpring, SiFastapi, SiDjango } from 'react-icons/si';
+import { SiTypescript, SiNextdotjs, SiTailwindcss, SiKubernetes, SiMongodb, SiPostgresql, SiElasticsearch, SiPython, SiGo, SiRuby, SiFlutter, SiMysql, SiRedis, SiGooglecloud, SiDocker, SiNestjs, SiSpringboot, SiSpring, SiFastapi, SiDjango, SiCplusplus, SiUnrealengine, SiUnity, SiCashapp, SiDotnet, SiGodotengine } from 'react-icons/si';
 
 const technologies = {
   frontend: [
@@ -29,6 +29,13 @@ const technologies = {
     { name: 'Flutter', icon: <SiFlutter size={24} className="text-[#02569B]" /> },
     { name: 'iOS (Swift)', icon: <FaSwift size={24} className="text-[#FA7343]" /> },
     { name: 'Android (Kotlin)', icon: <FaAndroid size={24} className="text-[#3DDC84]" /> },
+  ],
+  gameDev: [
+    { name: 'C++', icon: <SiCplusplus size={24} className="text-[#3776AB]" />},
+    { name: '.NET', icon: <SiDotnet size={24} className="text-[#3776AB]" />},
+    { name: 'Unity', icon: <SiUnity size={24} className="text-[#02569B]" />},
+    { name: 'Unreal Engine', icon: <SiUnrealengine size={24} className="text-[#02569B]" />},
+    { name: 'Godot', icon: <SiGodotengine size={24} className="text-[#02569B]" />},
   ],
   database: [
     { name: 'PostgreSQL', icon: <SiPostgresql size={24} className="text-[#336791]" /> },
@@ -92,7 +99,7 @@ export function TechnologyPage() {
           <span className="inline-block text-sm font-semibold text-blue-500 mb-4 tracking-wider uppercase">
             Our Tech Stack
           </span>
-          <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 via-purple-500 to-violet-600">
+          <h1 className="text-4xl md:text-6xl md:leading-normal font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 via-purple-500 to-violet-600">
             Cutting-Edge Technologies
           </h1>
           <p className={cn(

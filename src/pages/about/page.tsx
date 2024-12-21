@@ -116,7 +116,7 @@ export function AboutPage() {
               <span className="inline-block text-sm font-semibold text-blue-500 mb-4 tracking-wider uppercase">
                 About LetTech
               </span>
-              <h1 className="text-4xl lg:text-6xl font-bold mb-8 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 via-blue-500 to-cyan-500 tracking-tight">
+              <h1 className="text-4xl lg:text-6xl lg:leading-normal font-bold mb-8 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 via-blue-500 to-cyan-500 tracking-tight">
                 Your Technology Partner in Cyprus
               </h1>
               <p className={cn(
@@ -131,7 +131,6 @@ export function AboutPage() {
         </motion.div>
       </div>
 
-      {/* Enhanced Stats Section */}
       <div className="py-16">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -180,7 +179,6 @@ export function AboutPage() {
         </motion.div>
       </div>
 
-      {/* Enhanced Services Section */}
       <div className="py-16 relative">
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-blue-500/5 to-transparent" />
         <motion.div
